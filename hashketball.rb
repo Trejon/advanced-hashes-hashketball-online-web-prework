@@ -28,11 +28,11 @@ require 'pry'
 end
 
 
-def num_points_scored(player_name)
+def num_points_scored(player_stats)
   points = nil
   game_hash.each do |team, attributes|
     game_hash[team][:players].each do |key, value|
-      if players_stats == key
+      if players == key
         points = game_hash[team][:players][:points]
         end 
       end 
